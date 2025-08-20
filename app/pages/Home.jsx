@@ -7,10 +7,12 @@ import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
 import Gallery from '../components/Gallery';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
     <div>
+      <Header/>
       <Hero />
       <Services />
       <About />
